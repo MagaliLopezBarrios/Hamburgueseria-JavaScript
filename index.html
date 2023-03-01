@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburgueseria</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="header">
+        <h1>LAHAMBUR</h1>
+        <h2>El shooping de la hambuerguesa</h2>
+    </header>
+    <div id="app">
+    <div class="menu">
+        <div id="shopping-cart-container" class="hide"></div>
+    </div>
+    <div id="store-container"></div>
+    </div>
+
+    <div class="galeria">
+        <h3>Galeria de productos</h3>
+        <div class="images">
+            <img src="./img/combo1.jpg" alt="combo 1">
+            <img src="./img/hambur-completa.jpg" alt="hamburguesa completa">
+            <img src="./img/papas-de-la-casa.jpg" alt="papas fritas">
+            <img src="./img/hambur-simple.jpg" alt="hamburguesa simple">
+            <img src="./img/combo2.jpg" alt="combo 2">
+            <img src="./img/gaseosa.jpg" alt="gaseosa">
+        </div>
+        
+    <div class="formulario">
+        <h4>Te estamos buscando!!</h4>
+        <p> *Envianos tu curriculum para ser parte de esta gran familia* </p>
+        <section class="contact">
+            <div class="u-wrapper">
+                <div class="contact-content">
+
+                    <form id="form" class="form">
+                        <label for="name">Nombre completo <span>*</span></label>
+                        <input name= "name" required type="text" id="name">
+                        <label for="email">Correo electronico <span>*</span></label>
+                        <input name="email" type="text" id="email" required>
+                        <label for="message">Podes dejarnos un mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <button type="submit" class="btn primary full" id="submit">Enviar registro</button>
+                    </form>
+                    <a href="mailto:maguilopezbarrios@hotmail.com" id="truco">mail</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

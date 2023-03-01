@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.292);
+}
+header {
+    background-color: rgb(246, 221, 123);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header h1{
+    font-size: 50px;
+}
+#store-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+#store-container .item {
+    border: solid 1px #f3f0f0ea;
+    padding: 20px;
+}
+
+#shopping-cart-container {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    border: solid 1px #151515;
+    padding: 10px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.item .title {
+    font-weight: bold;
+}
+.item .price {
+    color: green;
+    font-weight: bold;
+}
+.item div {
+    padding: 5px 0;
+}
+
+.total {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+button {
+    border: none;
+    background-color: rgb(246, 221, 123);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.galeria h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+/*--formulario de registro--*/
+.formulario {
+    background-color: #03020284;
+    border-radius: 3px, solid black;
+    color: #040404;
+    padding: 10px;
+    margin: 0 auto;
+    width: 500px; }
+.formulario label {
+    margin: 10px;
+}
+.formulario input {
+    border: 10px;
+    outline: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center; 
+}
+.formulario input{
+        border: solid 1px #768282;
+        padding: 8px;
+        margin-top: 6px;
+        width: 470px;
+    }
+.formulario h4{
+    font-size: 25px;
+    text-align: center;
+}
+.formulario p{
+    text-align: center;
+}
+
+#truco {
+    opacity: 0; 
+}
